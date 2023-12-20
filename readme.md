@@ -5,12 +5,12 @@
 ### Примеры логики для back-end части
 1. Подключение к базе данных
 ```php
-    <?php
-        $connect = mysqli_connect('localhost', 'root','','exam');
-        if(!$connect){
-            die('Database connect error!');
-        }
-    ?>
+<?php
+    $connect = mysqli_connect('localhost', 'root','','exam');
+    if(!$connect){
+        die('Database connect error!');
+    }
+?>
 ```
 2. Логика регистрации на сайте
 ```php

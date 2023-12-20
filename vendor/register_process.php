@@ -8,3 +8,4 @@ $password = $_POST['password'];
 
 mysqli_query($connect, "INSERT INTO `users` (`id`, `username`, `password`, `role`) VALUES (NULL, '$username', '$password', 'user')");
 header('Location: ../login.php');
+?>

@@ -22,4 +22,4 @@ if($user) {
     header('Location: ../login.php?error=1'); // Замените login.php на вашу страницу входа
 }
 exit();
-
+?>
